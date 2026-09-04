@@ -445,6 +445,15 @@ span.highlight {
   gap: 16px;
 }
 
+.industry-gif-grid--2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.industry-gif-grid--2col .industry-gif-slot {
+  flex: none;
+}
+
 .industry-gif-slot {
   flex: 1 1 180px;
   min-height: 120px;
